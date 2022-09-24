@@ -24,7 +24,8 @@ $(function () {
             $("#status1").addClass("bg-warning");
             $("#status1").html("OFF")
         }
-        $("#ts1").html(moment().format('DD/MM/YYYY HH:mm:ss'));
+        $("#dd1").html(moment().format('DD/MM/YYYY'));
+        $("#hh1").html(moment().format('HH:mm:ss'));
     });
 });
 

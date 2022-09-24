@@ -109,30 +109,19 @@
                                 <table class="table text-nowrap mb-0">
                                     <thead class="table-light">
                                         <tr>
-                                            <th>Building</th>
-                                            <th>Location</th>
                                             <th>Device</th>
                                             <th>Status</th>
-                                            <th>Last Update</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="align-middle">
-                                                <div class="d-flex  align-items-center">
-                                                    <div class="lh-1">
-                                                        <h5 class=" mb-1"> <a href="#" class="text-inherit">751507</a></h5>
-
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="align-middle">#12-166</td>
-                                            <td class="align-middle">L1 Low</td>
-                                            <td class="align-middle"><span id="status1" class="badge bg-warning">OFF</span></td>
-                                            <td class="align-middle text-dark">
-                                                <div class="float-start me-3" id="ts1">-</div>
-
-                                            </td>
+                                            <td class="align-middle">751507<br/>#12-166<br/>L1 Low</td>
+                                            <td class="align-middle"><span id="status1" class="badge bg-warning">OFF</span>
+                                            <br/>
+                                            <div class="float-start me-3" id="dd1">-</div>
+                                            <br/>
+                                            <div class="float-start me-3" id="hh1"></div>
+                                            
                                         </tr>
                                     </tbody>
                                 </table>
