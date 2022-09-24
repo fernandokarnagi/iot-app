@@ -14,7 +14,7 @@
     <!-- Libs CSS -->
 
 
-    <link href="./assets/libs/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="./assets/libs/bkotstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="./assets/libs/dropzone/dist/dropzone.css" rel="stylesheet">
     <link href="./assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
     <link href="./assets/libs/prismjs/themes/prism-okaidia.css" rel="stylesheet">
@@ -31,7 +31,7 @@
         <!-- Sidebar -->
         <!-- Page content -->
         <div id="page-content" style="margin-left: 0px !important">
-            
+
             <!-- Container fluid -->
             <div class="bg-primary pt-10 pb-21"></div>
             <div class="container-fluid mt-n22 px-6">
@@ -128,10 +128,10 @@
                                             </td>
                                             <td class="align-middle">#12-166</td>
                                             <td class="align-middle">L1 Low</td>
-                                            <td class="align-middle"><span class="badge bg-success">ON</span></td>
+                                            <td class="align-middle"><span id="status1" class="badge bg-warning">OFF</span></td>
                                             <td class="align-middle text-dark">
-                                                <div class="float-start me-3">10/10/2022 10:10</div>
-                                              
+                                                <div class="float-start me-3" id="ts1">-</div>
+
                                             </td>
                                         </tr>
                                     </tbody>
@@ -142,7 +142,7 @@
                     </div>
                 </div>
                 <!-- row  -->
-             
+
             </div>
         </div>
     </div>
@@ -161,13 +161,18 @@
     <script src="./assets/libs/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
     <script src="./assets/libs/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
 
-
-
-
     <!-- Theme JS -->
     <script src="./assets/js/theme.min.js"></script>
 
+    <!-- Custom JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script src="./assets/js/socket.js"></script>
 
+    <script>
+
+    </script>
 
 </body>
 
