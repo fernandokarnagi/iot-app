@@ -1,0 +1,37 @@
+{
+    "name": "fkarnagi/iotapp",
+    "description": "IOT App",
+    "version": "1.7.5",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Fkarnagi\\Iotapp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fernando Karnagi",
+            "email": "fkarnagi@gmail.com"
+        }
+    ],
+    "scripts": {
+        "run-dev": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -t src -S localhost:8000"
+        ],
+        "run-mobile": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -t src -S 192.168.1.117:8000"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "5.3.29"
+        },
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^5.3.0 || ^7.0 || ^8.0",
+        "mrclay/minify": "~3.0.0"
+    }
+}
