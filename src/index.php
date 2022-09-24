@@ -64,7 +64,7 @@
                                 </div>
                                 <!-- project number -->
                                 <div>
-                                    <h1 class="fw-bold">1</h1>
+                                    <h1 class="fw-bold">2</h1>
                                     <p class="mb-0"><span class="text-dark me-2">5</span>devices</p>
                                 </div>
                             </div>
@@ -115,13 +115,20 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="align-middle">751507<br/>#12-166<br/>L1 Low</td>
+                                            <td class="align-middle">751507<br/>#12-166<br/>High</td>
                                             <td class="align-middle"><span id="status1" class="badge bg-warning">OFF</span>
                                             <br/>
                                             <div class="float-start me-3" id="dd1">-</div>
                                             <br/>
                                             <div class="float-start me-3" id="hh1"></div>
-                                            
+                                        </tr>
+                                        <tr>
+                                            <td class="align-middle">751507<br/>#12-166<br/>Low</td>
+                                            <td class="align-middle"><span id="status2" class="badge bg-warning">OFF</span>
+                                            <br/>
+                                            <div class="float-start me-3" id="dd2">-</div>
+                                            <br/>
+                                            <div class="float-start me-3" id="hh2"></div>
                                         </tr>
                                     </tbody>
                                 </table>
